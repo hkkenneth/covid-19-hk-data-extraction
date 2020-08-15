@@ -5,7 +5,7 @@ executors:
     description: |
       Basic Docker image
     docker:
-    - image: circleci/python
+    - image: rappdw/docker-java-python
 jobs:
   all:
     description: |
