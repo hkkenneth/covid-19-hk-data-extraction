@@ -15,7 +15,7 @@ jobs:
     - checkout
     - add_ssh_keys:
         fingerprints:
-          - "ac:89:99:c4:d9:0e:90:66:0c:f1:5c:57:2e:46:4f:0e"
+          - "fe:0c:af:21:57:3c:0e:45:f0:e2:fd:48:83:d1:fb:f4"
     - run:
         command: |
           pip install jupyter nbconvert
