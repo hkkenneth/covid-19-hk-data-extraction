@@ -24,7 +24,7 @@ jobs:
           git config user.name "CircleCI Job"
           jupyter nbconvert --execute --to notebook --inplace data-extraction.ipynb
           git add data-extraction.ipynb
-          git add pickle.dat
+          git add raw-en.dat
           git commit --allow-empty -am "Automatic commit from CircleCI [skip ci]"
           git push origin master
         name: Git Checkout and run jupyter notebook
