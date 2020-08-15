@@ -22,6 +22,7 @@ jobs:
           git status
           git config user.email "hkkenneth@gmail.com"
           git config user.name "CircleCI Job"
+          git config core.autocrlf true
           jupyter nbconvert --execute --to notebook --inplace data-extraction.ipynb
           git add data-extraction.ipynb
           git add raw-en.dat
