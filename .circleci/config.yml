@@ -5,7 +5,7 @@ executors:
     description: |
       Basic Docker image
     docker:
-    - image: cimg/base:2020.01
+    - image: circleci/python
 jobs:
   all:
     description: |
